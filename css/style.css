@@ -92,3 +92,12 @@ form:has(:invalid) button {
     opacity: 0.1;
     background-color: #ff0000;
 }
+.croco__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.croco__header a {
+    font-weight: bold;
+}

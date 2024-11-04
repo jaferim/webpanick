@@ -1,3 +1,13 @@
+@keyframes flicker{
+    0% {
+        color: red;
+    }
+    100%{
+        color: blue;
+    }
+}
+
+
 .croco--wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -29,6 +39,7 @@ img {
     transform: translateX(-50%);
     opacity: 0;
     z-index: 0;
+    animation: flicker .2s infinite linear;
 }
 .correct img:hover ~ h2{
     opacity: 1;
