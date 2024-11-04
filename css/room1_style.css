@@ -1,0 +1,37 @@
+       .main {
+           background-color: #a71818;
+           padding: 2rem;
+           border-radius: 4px;
+       }
+
+       .number-grid {
+           display: grid;
+           grid-template-columns: repeat(20, 30px);
+           gap: 0.5rem;
+           font-family: Arial, sans-serif;
+           text-align: center;
+           width: max-content;
+       }
+
+       .number {
+           width: 30px;
+           height: 30px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           background-color: #a71818;
+           color: #ffffff;
+           border-radius: 4px;
+           border: 2px solid #fcdddd;
+           margin: 0 0;
+           transition: transform 0.2s ease;
+       }
+
+       .unique {
+           background-color: #940d0d;
+           color: #fff;
+       }
+
+       .number:hover {
+           transform: scale(2);
+       }
