@@ -94,10 +94,15 @@ form:has(:invalid) button {
 
 /* ROOM 2 STUFF */
 
+.container {
+    display: flex;
+    padding: 20px;
+}
+
 .box {
     display: block;
     width: 20%;
     height: 20%;
+    padding: 20px;
     background-color: black;
-
 }
